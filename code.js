@@ -114,7 +114,7 @@ function mostrarOpcion1Bo3(){
   seleccion1.src=this.src;
   seleccion1.id=this.id;
   seleccion1.style.visibility="hidden";
-  if (score1 < 2 && score2 < 2){
+  if (score1 < 3 && score2 < 3){
     mostrarOpcion2
   }
   else if (score1>score2){
@@ -130,7 +130,7 @@ function mostrarOpcion1Bo5(){
   seleccion1.src=this.src;
   seleccion1.id=this.id;
   seleccion1.style.visibility="hidden";
-  if (score1 < 3 && score2 < 3){
+  if (score1 < 5 && score2 < 5){
     mostrarOpcion2
   }
   else if (score1>score2){
@@ -146,7 +146,7 @@ function mostrarOpcion1Bo7(){
   seleccion1.src=this.src;
   seleccion1.id=this.id;
   seleccion1.style.visibility="hidden";
-  if (score1 < 4 && score2 < 4){
+  if (score1 < 7 && score2 < 7){
     mostrarOpcion2
   }
   else if (score1>score2){
