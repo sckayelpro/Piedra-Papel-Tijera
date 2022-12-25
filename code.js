@@ -22,6 +22,10 @@ bestOfOne.addEventListener("click",modoSeleccionado)
 bestOfThree.addEventListener("click",modoSeleccionado)
 bestOfFive.addEventListener("click",modoSeleccionado)
 bestOfSeven.addEventListener("click",modoSeleccionado)
+bestOfOne.addEventListener("touchstart",modoSeleccionado)
+bestOfThree.addEventListener("touchstart",modoSeleccionado)
+bestOfFive.addEventListener("touchstart",modoSeleccionado)
+bestOfSeven.addEventListener("touchstart",modoSeleccionado)
 
 function modoSeleccionado(){
   modoSeleccionadoVar.id = this.id
@@ -30,40 +34,64 @@ function modoSeleccionado(){
     opcPiedra1.addEventListener("click",mostrarOpcion1Bo1);
     opcPapel1.addEventListener("click",mostrarOpcion1Bo1);
     opcTijera1.addEventListener("click",mostrarOpcion1Bo1);
+    opcPiedra1.addEventListener("touchstart",mostrarOpcion1Bo1);
+    opcPapel1.addEventListener("touchstart",mostrarOpcion1Bo1);
+    opcTijera1.addEventListener("touchstart",mostrarOpcion1Bo1);
     
     opcPiedra2.addEventListener("click",mostrarOpcion2);
     opcPapel2.addEventListener("click",mostrarOpcion2);
     opcTijera2.addEventListener("click",mostrarOpcion2);
+    opcPiedra2.addEventListener("touchstart",mostrarOpcion2);
+    opcPapel2.addEventListener("touchstart",mostrarOpcion2);
+    opcTijera2.addEventListener("touchstart",mostrarOpcion2);
   }
   else if (modoSeleccionadoVar.id === "bestOfThree"){
     alert("Gana el mejor de 3 juegos")
     opcPiedra1.addEventListener("click",mostrarOpcion1Bo3);
     opcPapel1.addEventListener("click",mostrarOpcion1Bo3);
     opcTijera1.addEventListener("click",mostrarOpcion1Bo3);
+    opcPiedra1.addEventListener("touchstart",mostrarOpcion1Bo3);
+    opcPapel1.addEventListener("touchstart",mostrarOpcion1Bo3);
+    opcTijera1.addEventListener("touchstart",mostrarOpcion1Bo3);
     
     opcPiedra2.addEventListener("click",mostrarOpcion2);
     opcPapel2.addEventListener("click",mostrarOpcion2);
     opcTijera2.addEventListener("click",mostrarOpcion2);
+    opcPiedra2.addEventListener("touchstart",mostrarOpcion2);
+    opcPapel2.addEventListener("touchstart",mostrarOpcion2);
+    opcTijera2.addEventListener("touchstart",mostrarOpcion2);
   }
   else if (modoSeleccionadoVar.id === "bestOfFive"){
     alert("Gana el mejor de 5 juegos")
     opcPiedra1.addEventListener("click",mostrarOpcion1Bo5);
     opcPapel1.addEventListener("click",mostrarOpcion1Bo5);
     opcTijera1.addEventListener("click",mostrarOpcion1Bo5);
+    opcPiedra1.addEventListener("touchstart",mostrarOpcion1Bo5);
+    opcPapel1.addEventListener("touchstart",mostrarOpcion1Bo5);
+    opcTijera1.addEventListener("touchstart",mostrarOpcion1Bo5);
     
     opcPiedra2.addEventListener("click",mostrarOpcion2);
     opcPapel2.addEventListener("click",mostrarOpcion2);
     opcTijera2.addEventListener("click",mostrarOpcion2);
+    opcPiedra2.addEventListener("touchstart",mostrarOpcion2);
+    opcPapel2.addEventListener("touchstart",mostrarOpcion2);
+    opcTijera2.addEventListener("touchstart",mostrarOpcion2);
   }
   else if (modoSeleccionadoVar.id === "bestOfSeven"){
     alert("Gana el mejor de 7 juegos")
     opcPiedra1.addEventListener("click",mostrarOpcion1Bo7);
     opcPapel1.addEventListener("click",mostrarOpcion1Bo7);
     opcTijera1.addEventListener("click",mostrarOpcion1Bo7);
+    opcPiedra1.addEventListener("touchstart",mostrarOpcion1Bo7);
+    opcPapel1.addEventListener("touchstart",mostrarOpcion1Bo7);
+    opcTijera1.addEventListener("touchstart",mostrarOpcion1Bo7);
     
     opcPiedra2.addEventListener("click",mostrarOpcion2);
     opcPapel2.addEventListener("click",mostrarOpcion2);
     opcTijera2.addEventListener("click",mostrarOpcion2);
+    opcPiedra2.addEventListener("touchstart",mostrarOpcion2);
+    opcPapel2.addEventListener("touchstart",mostrarOpcion2);
+    opcTijera2.addEventListener("touchstart",mostrarOpcion2);
   }
 
 function mostrarOpcion1Bo1(){
