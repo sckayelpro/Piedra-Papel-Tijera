@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel o Tijera</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="contenedor-juego">
+        <div class="buttons">
+            <button class="gameMode" id="bestOfOne">MEJOR DE 1</button>
+            <button class="gameMode" id="bestOfThree">MEJOR DE 3</button>
+            <button class="gameMode" id="bestOfFive">MEJOR DE 5</button>
+            <button class="gameMode" id="bestOfSeven">MEJOR DE 7</button>
+            <h1 id="modo-seleccionado"></h1>
+        </div>
+        
+        <div id="jugador-1">
+            <div id="contenedor-accion-seleccionada-1" class="contenedor-accion-seleccionada">
+                <img src="https://lh3.googleusercontent.com/p/AF1QipP_ENJc_dS9AVBcDBvNmjQie5lNe0GSvkFF-PdT=w768-h768-n-o-v1" id="accion-seleccionada-1" class="accion-selecionada">
+            </div>
+            <div class="contenedor-opciones">
+                <img src="https://images.emojiterra.com/google/android-nougat/512px/1f44a.png" class="opciones" id="piedra-1">
+                <img src="https://images.emojiterra.com/google/android-nougat/512px/1f590.png" class="opciones" id="papel-1">
+                <img src="https://images.emojiterra.com/google/android-nougat/512px/270c.png" class="opciones" id="tijera-1">
+                <h1>JUGADOR 1</h1>
+            </div>
+        </div>
+        <div id="jugador-2">
+                <div id="contenedor-accion-seleccionada-2" class="contenedor-accion-seleccionada">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipP_ENJc_dS9AVBcDBvNmjQie5lNe0GSvkFF-PdT=w768-h768-n-o-v1" id="accion-seleccionada-2" class="accion-selecionada">
+                </div>
+                <div class="contenedor-opciones">
+                    <img src="https://images.emojiterra.com/google/android-nougat/512px/1f44a.png" class="opciones" id="piedra-2">
+                    <img src="https://images.emojiterra.com/google/android-nougat/512px/1f590.png" class="opciones" id="papel-2">
+                    <img src="https://images.emojiterra.com/google/android-nougat/512px/270c.png" class="opciones" id="tijera-2">
+                    <h1>JUGADOR 2</h1>
+                </div>
+        </div>
+    </div>
+
+    <script src="code.js"></script>
+</body>
+</html>
