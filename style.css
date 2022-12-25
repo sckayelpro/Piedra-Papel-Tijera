@@ -22,14 +22,14 @@ button:hover{
     background-color: rgb(47, 60, 63);
 }
 .contenedor-accion-seleccionada img{
-    width: 8em;
+    width: 7em;
     border-radius: 10px;
     visibility:hidden;
 }
 
 .contenedor-opciones img {
     display: inline-block;
-    width: 7em;
+    width: 6em;
     background:rgb(153, 102, 102);
     border: 2% solid rgb(0, 0, 0);
     border-radius: 5px;
